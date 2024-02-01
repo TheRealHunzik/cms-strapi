@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_member",
+  "info": {
+    "singularName": "team-members",
+    "pluralName": "team-member",
+    "displayName": "TeamMembers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "About": {
+      "type": "text"
+    }
+  }
+}

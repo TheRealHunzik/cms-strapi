@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "core_configs",
+  "info": {
+    "singularName": "core-config",
+    "pluralName": "core-configs",
+    "displayName": "CoreConfig"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string"
+    },
+    "store": {
+      "type": "string"
+    }
+  }
+}
